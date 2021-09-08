@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+height: 80px;
+width: 100%;
+background-color: #EFF4F6;
+align-items: center;
+}
+
+nav h1{
+color: #58A3CE;
+margin-left: 63px;
+font-size: 24px;
+
+}
+
+nav ul{
+    display: flex;
+    width: 638px;
+    justify-content: space-between;
+
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav button{
+    width: 120px;
+    height: 40px;
+    background-color: #58A3CE;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    color: white;
+    margin-right: 63px;
+}
+
+
+section{
+    width: 100vw;
+    height: 100vh;
+    background-color: #EFF4F6;
+
+}
+
+.main{
+    display: flex;
+}
+
+.main .content{
+    margin: 63px;
+    width: 643px;
+    
+}
+
+.content h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 36px;
+}
+.content p{
+    font-size: 24px;
+    margin-bottom: 48px;
+}
+
+.content input{
+    width: 320px;
+    height: 72px;
+    background-color: #ECE5E5;
+    outline: none;
+    border: none;
+    padding: 16px;
+}
+
+.content button{
+    width: 220px;
+    height: 72px;
+    background-color: #58A3CE;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border: none;
+}
+
+.content .sign-in{
+    margin-top: 32px;
+    font-size: 16px;
+}
+
+
+
+
+.main .image{
+    width: 574.24px;
+    height: 645px;
+    background-image: url(./images/h1.png);
+}
+
